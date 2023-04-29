@@ -1,5 +1,4 @@
 from data import data as data2
-from tables import table_name, semantic_table
 import re
 
 
@@ -143,8 +142,5 @@ def nametable_create():
 nametable_create()
 
 new_tokens = sorted(new_tokens, key=lambda x:x[1])
-
-table_name()
-semantic_table()
 
     
